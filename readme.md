@@ -22,3 +22,12 @@ Made with the excellent Love2D game framework/engine. Wrote this back when I fin
 **NOTE**: there is no counter-clockwise motion... yet!
 
 ![screen1](screenshots/screen1.png)
+
+
+---
+
+Apparently, one of the first tilesets I made to test with was just my LastFM top-albums at the time heavily scaled down. To run with this tileset,
+```
+love sirtet images/96.png
+```
+![screen96](screenshots/screen96.png)

@@ -210,12 +210,13 @@ function ghostdraw()
     love.graphics.setColor(255, 255, 255)
 end
 
-function love.load()
+function love.load(args)
     -- love.window.setFullscreen(true)
+    local tilesetPath = args[1] or "images/testing.png"
     state = "splash"
     sfont = love.graphics.newFont("fonts/pixa.ttf", 24 * scale)
     gfont = love.graphics.newFont("fonts/pixa.ttf", 7 * scale)
-    tiles = love.graphics.newImage("images/testing.png")
+    tiles = love.graphics.newImage(tilesetPath)
     tiles:setFilter("nearest", "nearest")
     sfont:setFilter("nearest", "nearest")
     gfont:setFilter("nearest", "nearest")
