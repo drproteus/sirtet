@@ -213,21 +213,21 @@ end
 function love.load()
     -- love.window.setFullscreen(true)
     state = "splash"
-    sfont = love.graphics.newFont("pixa.ttf", 24 * scale)
-    gfont = love.graphics.newFont("pixa.ttf", 7 * scale)
-    tiles = love.graphics.newImage("testing.png")
+    sfont = love.graphics.newFont("fonts/pixa.ttf", 24 * scale)
+    gfont = love.graphics.newFont("fonts/pixa.ttf", 7 * scale)
+    tiles = love.graphics.newImage("images/testing.png")
     tiles:setFilter("nearest", "nearest")
     sfont:setFilter("nearest", "nearest")
     gfont:setFilter("nearest", "nearest")
-    music = love.audio.newSource("tiwa2.ogg", "stream")
+    music = love.audio.newSource("audio/tiwa2.ogg", "stream")
     music:setLooping(true)
 
-    drop = love.audio.newSource("drop.wav", "static")
-    rot = love.audio.newSource("rotation.wav", "static")
-    dead = love.audio.newSource("overlimit.wav", "static")
-    row = love.audio.newSource("row.wav", "static")
-    move = love.audio.newSource("shift.wav", "static")
-    pause = love.audio.newSource("pause.wav", "static")
+    drop = love.audio.newSource("audio/drop.wav", "static")
+    rot = love.audio.newSource("audio/rotation.wav", "static")
+    dead = love.audio.newSource("audio/overlimit.wav", "static")
+    row = love.audio.newSource("audio/row.wav", "static")
+    move = love.audio.newSource("audio/shift.wav", "static")
+    pause = love.audio.newSource("audio/pause.wav", "static")
 
     ghosting = false
 
