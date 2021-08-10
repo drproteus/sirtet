@@ -17,7 +17,7 @@ Made with the excellent Love2D game framework/engine. Wrote this back when I fin
 * `p` pauses the game
 * when paused, `q` exits the application
 * `g` toggles ghosting (initially off)
-* `1-10` sets the "level" to this number-- just modifies speed where the higher the level, the faster the piece (save 0, which is MAX LEVEL).
+* `1-0` sets the "level" to this number-- just modifies speed where the higher the level, the faster the piece (save 0, which is MAX LEVEL).
 
 **NOTE**: there is no counter-clockwise motion... yet!
 
