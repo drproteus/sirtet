@@ -1,8 +1,6 @@
 # SIRTET
 ## tetrominos in lua
 
-Made with the excellent Love2D game framework/engine. Wrote this back when I finally made up my mind to pursue software engineering in earnest (2013?) and my mind went "Oh yeah? Well prove it."
-
 ### running
 * have Love2d on your system (`apt install love`, for example)
 * `git clone https://github.com/drproteus/sirtet.git`
@@ -23,10 +21,9 @@ Made with the excellent Love2D game framework/engine. Wrote this back when I fin
 
 ![screen1](screenshots/screen1.png)
 
-
 ---
 
-Apparently, one of the first tilesets I made to test with was just my LastFM top-albums at the time heavily scaled down. To run with this tileset,
+### Bonus: LastFM Top Albums (at the time) Tileset
 ```
 love sirtet images/96.png
 ```
