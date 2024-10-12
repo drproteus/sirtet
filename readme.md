@@ -1,4 +1,4 @@
-# SIRTET
+# SIRTET (2014)
 ## tetrominos in lua
 
 ### running
